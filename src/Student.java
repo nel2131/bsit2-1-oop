@@ -19,7 +19,7 @@ public class Student {
         System.out.println("Grades: " + grade1 + ", " + grade2 + ", " + grade3);
         System.out.println("Average: " + calculateAverage());
         System.out.println("Letter Grade: " + getLetterGrade());
-        System.out.println("Status: " + (isPassing() ? "PASSING" : "FAILING"));
+        System.out.println("Status: " + (isPassing() ? "PASSED" : "FAILED"));
         System.out.println();
     }
 

@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        Student s1 = new Student("Jett", 20, "BSIT", 85, 90, 88);
-        Student s2 = new Student("Harbor", 19, "BSCS", 90, 87, 94);
-        Student s3 = new Student("Fade", 21, "BSIT", 87, 90, 80);
+        Student s1 = new Student("Jett", 20, "BSIT", 80, 90, 87);
+        Student s2 = new Student("Harbor", 19, "BSCS", 75, 65, 60);
+        Student s3 = new Student("Fade", 21, "BSIT", 84, 89, 92);
 
         Student[] students = { s1, s2, s3 };
         int passingCount = 0;
